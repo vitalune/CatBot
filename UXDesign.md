@@ -45,7 +45,7 @@ The user journey from struggling student to confident learner:
 
 Accessibility considerations for diverse student needs:
 
-![User Group Cards](visuals/user-group-cards.png)
+![User Group Cards](visuals/usergroup-cards.png)
 
 ### Design Accommodations by User Group
 
