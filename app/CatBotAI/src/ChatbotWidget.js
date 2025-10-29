@@ -39,9 +39,11 @@ const ChatbotWidget = () => {
         <iframe
           id="chatbot-iframe"
           className="chatbot-iframe"
-          src="https://huggingface.co/spaces/vitalune/CatBot"
+          src="https://vitalune-catbot.hf.space"
           frameBorder="0"
           title="CatBot AI Tutor"
+          allow="accelerometer; ambient-light-sensor; autoplay; battery; camera; clipboard-write; encrypted-media; geolocation; gyroscope; layout-animations; magnetometer; microphone; midi; payment; picture-in-picture; publickey-credentials-get; sync-xhr; usb; web-share; xr-spatial-tracking"
+          sandbox="allow-forms allow-modals allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-downloads"
         />
       </div>
     </>
