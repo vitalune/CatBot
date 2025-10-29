@@ -1,0 +1,113 @@
+/* Chatbot Widget Container */
+.chatbot-widget-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+  box-shadow: 0 4px 20px rgba(255, 140, 0, 0.4);
+  border-radius: 12px;
+  overflow: hidden;
+  background: linear-gradient(135deg, #ff8c00 0%, #ffa500 100%);
+  padding: 3px;
+  transition: all 0.3s ease;
+}
+
+.chatbot-widget-container:hover {
+  box-shadow: 0 6px 30px rgba(255, 140, 0, 0.5);
+  transform: translateY(-2px);
+}
+
+/* Iframe Styling */
+.chatbot-iframe {
+  display: block;
+  border: none;
+  border-radius: 10px;
+  background: white;
+  width: 850px;
+  height: 450px;
+}
+
+/* Toggle Button */
+.chatbot-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10000;
+  background: linear-gradient(135deg, #ff8c00 0%, #ffa500 100%);
+  color: white;
+  border: none;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 4px 15px rgba(255, 140, 0, 0.4);
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+}
+
+.chatbot-toggle:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(255, 140, 0, 0.5);
+}
+
+.chatbot-toggle:active {
+  transform: scale(0.95);
+}
+
+/* Hidden State */
+.chatbot-widget-container.hidden {
+  display: none;
+}
+
+/* Responsive Design - Mobile */
+@media (max-width: 900px) {
+  .chatbot-widget-container {
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
+    width: auto !important;
+  }
+
+  .chatbot-iframe {
+    width: 100% !important;
+    height: 500px !important;
+  }
+
+  .chatbot-toggle {
+    bottom: 10px;
+    right: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .chatbot-iframe {
+    height: 450px !important;
+  }
+
+  .chatbot-toggle {
+    width: 55px;
+    height: 55px;
+    font-size: 22px;
+  }
+}
+
+/* Animation for button pulse effect */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 4px 15px rgba(255, 140, 0, 0.4);
+  }
+  50% {
+    box-shadow: 0 4px 25px rgba(255, 140, 0, 0.7);
+  }
+  100% {
+    box-shadow: 0 4px 15px rgba(255, 140, 0, 0.4);
+  }
+}
+
+/* Add pulse animation when first loaded */
+.chatbot-toggle:not(:hover) {
+  animation: pulse 2s ease-in-out infinite;
+}

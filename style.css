@@ -180,6 +180,18 @@ Button-box class selector uses Flex Box Design (flex display) to scale the eleme
   outline-offset: 2px;
 }
 
+/* Secondary button variant */
+.button-secondary {
+  background-color: #fff;
+  color: #2A5DB0;
+  border: 3px solid #2A5DB0;
+}
+
+.button-secondary:hover {
+  background-color: #2A5DB0;
+  color: #fff;
+}
+
 
 /* - CSS Flexbox Layout -
 CSS Flexbox creates responsive layouts for images, text, and other content. Reuse .column class to create additional grids with different proportions for specific content */
