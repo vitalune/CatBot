@@ -74,11 +74,11 @@ The team collected materials from four distinct subject areas, representing dive
 - Primarily private Pitt course slides and materials
 - 70%+ from non-publicly accessible sources
 
-**CS1530 (Software Engineering)** - David
+**CS1530 (Software Engineering)** - Shash
 - Course-specific documentation and slides
 - Shared via Google Drive to handle large file sizes
 
-**LCJS1320 (Civil Rights Law)** - Eymer
+**LCJS1320 (Civil Rights Law)** - David
 - Syllabus
 - Four important court cases
 - U.S. Constitution excerpts
@@ -155,7 +155,7 @@ Each team member's contributions are clearly documented:
 ### Accommodating Life Circumstances
 
 The team recognized and accommodated:
-- Work schedules (Eymer's shift work)
+- Work schedules (David's shift work)
 - Academic pressures (CS449 malloc project crunch)
 - Extracurricular commitments (IM games)
 - Different time zone/schedule preferences (late-night availability)

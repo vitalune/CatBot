@@ -66,8 +66,8 @@ The chatbot is designed specifically for students who have difficulty studying o
 | Course Code | Course Name | Material Provider |
 |-------------|-------------|-------------------|
 | **CS1502** | Formal Methods in Computer Science | Aiden |
-| **CS1530** | Software Engineering | David |
-| **LCJS1320** | Civil Rights Law | Eymer |
+| **CS1530** | Software Engineering | Shash |
+| **LCJS1320** | Civil Rights Law | David |
 | **MATH0280** | Linear Algebra | Amir |
 
 All courses use 70%+ private Pitt materials not accessible to non-Pitt students.
@@ -265,13 +265,13 @@ Documentation (CatBot-docs repo):
 - Training documentation
 - CS1502 (Formal Methods) course material collection
 
-**Frontend Developer: David (BigBlub)**
+**Frontend Developer: Shash (BigBlub)**
 - Website development and frontend
 - GitHub repository setup
 - CS1530 (Software Engineering) course material collection
 - Pull request management
 
-**Process Verifier: Eymer (EymerIsland02)**
+**Process Verifier: David (EymerIsland02)**
 - Process verification documentation
 - LCJS1320 (Civil Rights Law) course material collection
 - Accessibility testing
