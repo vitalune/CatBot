@@ -68,7 +68,7 @@ The chatbot is designed specifically for students who have difficulty studying o
 | **CS1502** | Formal Methods in Computer Science | Aiden |
 | **CS1530** | Software Engineering | David |
 | **LCJS1320** | Civil Rights Law | Eymer |
-| **MATH0280** | Linear Algebra | TBD |
+| **MATH0280** | Linear Algebra | Amir |
 
 All courses use 70%+ private Pitt materials not accessible to non-Pitt students.
 
